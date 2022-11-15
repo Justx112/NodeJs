@@ -4,8 +4,6 @@ let counter = 0;
 
 let numbers = process.argv.slice(2)
 
-
-
 checkInput(numbers)
 
 let aria = getAria(numbers)
@@ -69,3 +67,4 @@ function checkInput(array){
         process.exit(9)
     }
 }
+//создание новой ветки
